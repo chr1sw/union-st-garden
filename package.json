@@ -1,0 +1,19 @@
+{
+  "name": "union",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^1.3.0",
+    "autoprefixer": "^9.7.0",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^6.1.3",
+    "tailwindcss": "^1.1.3"
+  }
+}
